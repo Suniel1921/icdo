@@ -1,0 +1,13 @@
+.banner_container{
+    background-color:var(--primaryColor);
+    color: var(--textWhite);
+}
+
+.social_icons p{
+    font-size: 23px;
+    
+}
+.social_icons p:hover{
+    color: blue;
+    transition: all .5s ease;
+}

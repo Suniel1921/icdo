@@ -64,7 +64,6 @@ exports.login = async (req ,res)=>{
 
 
 
-
 //protected route controller
 exports.protectedRoute = async (req ,res)=>{
     res.status(200).send({ok: true});
@@ -74,5 +73,8 @@ exports.protectedRoute = async (req ,res)=>{
 exports.admin = (req, res)=>{
     res.status(200).send({ok: true});
 }
+
+
+
 
 

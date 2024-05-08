@@ -1,0 +1,66 @@
+.coverBanner_container {
+    margin-top: 56px;
+}
+
+.coverBanner_content {
+    background-image: url('/image/child.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+/* Add overlay color */
+.coverBanner_content::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 27, 26, 0.5);
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2; 
+    color: var(--textWhite);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;    
+   
+}
+
+
+.coverBanner_para{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.coverBanner_heading{
+    font-size: 34px;
+    margin: 23px 0px 23px 0;
+    width: 50%;
+    text-align: center;
+}
+
+
+.coverBanner_Btn{
+    outline: none;
+    border: none;
+    background-color: var(--primaryColor);
+    color: var(--textWhite);
+    padding: 17px 45px;
+    border-radius: 8px;
+}
+
+.coverBanner_Btn:hover{
+    background-color: darkblue;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+

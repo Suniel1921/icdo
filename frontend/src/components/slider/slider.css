@@ -71,5 +71,73 @@
 
 
 
+
+  /* **********************media queries************************ */
+
+  @media screen and (max-width: 1250px) {
+    .text {
+        top: 73px;
+    }
+    .text p{
+      width: 100%;
+    }
+    .heading{
+      font-size: 54px;
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    
+}
+
+
+
+@media screen and (max-width: 950px) {   
+
+  .text {
+    left: 79px;    
+  }
+
+  
+}
+
+@media screen and (max-width: 600px) {   
+
+  .text {
+    left: 45px;    
+  }
+  .text p {
+    font-size: 18px;
+}
+  .heading {
+    font-size: 40px;
+  }
+
+  
+}
+@media screen and (max-width: 350px) {   
+
+  .text {
+    left: 23px;    
+  }
+  .text p {
+    font-size: 16px;
+}
+  .heading {
+    font-size: 30px;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
   
   

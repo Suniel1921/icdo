@@ -1,0 +1,38 @@
+.count_container{
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 34px;
+    margin-bottom: 34px;
+    padding: 34px;
+
+}
+
+.count{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.count_content h2{
+    font-size: 44px;
+}
+
+
+
+
+
+
+  /* **********************media queries************************ */
+
+@media screen and (max-width: 600px) {  
+    .count_content h2 {
+        font-size: 20px;
+    }
+    
+  
+    
+  }
+
+
+

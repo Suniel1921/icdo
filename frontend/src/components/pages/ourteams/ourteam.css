@@ -1,0 +1,66 @@
+.teamHeading{
+    text-align: center;
+    margin-top: 54px;
+}
+.teamHeading h2{
+    font-size: 34px;
+    
+}
+
+.ourTeam {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Display 4 columns with equal width */
+    gap: 20px; /* Add gap between cards */
+    margin-top: 40px;
+}
+
+/* .ourTeam_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+.ourTeam_card img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+
+
+
+  /* **********************media queries************************ */
+  @media screen and (max-width: 950px) {
+    .ourTeam {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+  }
+   @media screen and (max-width: 600px) {
+    .ourTeam {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 40px;
+    }
+    .teamHeading h2 {
+        font-size: 23px;
+    }
+
+  } 
+  @media screen and (max-width: 450px) {
+    .ourTeam {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 40px;
+    }
+    .teamHeading h2 {
+        font-size: 23px;
+    }
+
+  }

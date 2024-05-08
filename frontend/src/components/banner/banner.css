@@ -11,3 +11,13 @@
     color: blue;
     transition: all .5s ease;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .banner_container{
+        display: none;
+    }
+
+    
+}

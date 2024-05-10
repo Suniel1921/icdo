@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <div className="about_container">
-        <div className="about_content global_flex">
+        <div className="about_content global_flex container">
           <div className="about_left">
             <img src="/image/about.png" alt="about image" />
           </div>

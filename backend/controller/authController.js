@@ -2,6 +2,7 @@
 const authModel = require("../model/authModel");
 const bcrypt = require ("bcrypt");
 const JWT = require ("jsonwebtoken");
+const contactModel = require("../model/contact");
 
 
 exports.register = async (req, res)=>{
@@ -78,3 +79,41 @@ exports.admin = (req, res)=>{
 
 
 
+// contact us controller
+
+exports.contact = async (req, res) => {
+    try {
+        const { name, email, phone, subject, message } = req.body;
+        
+        // Validation
+        if (!name || !email || !phone || !subject || !message) {
+            return res.status(400).json({ success: false, message: "All fields are required" });
+        }
+        
+        // Create a new contact entry
+        const newContact = await contactModel.create({ name, email, phone, subject, message });
+
+        return res.status(201).json({ success: true, message: "Thanks for contacting us!", newContact });
+    } catch (error) {
+        console.error('Error in contact form submission:', error);
+        return res.status(500).json({ success: false, message: `Internal server error ${error}` });
+    }
+}
+
+
+
+//get all contact data in admin dashboard
+
+exports.getAllContactData = async (req ,res)=>{
+    try {
+        const allContactData = await contactModel.find({});
+        if(!allContactData && allContactData.lenght === 0){
+            return res.status(400).json({success: false, message : "No Contact Message"})
+        }
+        return res.status(200).json({success: true, message: "All Contact Data found", allContactData});
+    } catch (error) {
+        return res.status(500).json({success: false, message: "Internal server error"});
+        
+    }
+
+}

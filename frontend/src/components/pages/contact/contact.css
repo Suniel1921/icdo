@@ -1,0 +1,160 @@
+.contactBg{
+    margin-top: 56px;
+}
+.contactNavbar a{
+    color: #fff;
+  }
+  
+  .contactBg{
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .contact_container {
+    color: black;
+  }
+  .contact_content {
+    text-align: center;
+    color: var(--whiteColor);
+    line-height: 2rem;
+    font-size: 20px;
+  }
+  
+  .address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 44px;
+  }
+  
+  .address_image .location_icon{
+  font-size: 24px;
+  color: #7371f9;
+  }
+  
+  .address_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+
+  .locationMessage_container{
+    margin-top: 34px;
+    display: flex;
+    gap: 5rem;
+  }
+
+  .leftLocation{
+    width: 50%;
+  }
+  
+  .map{
+    border-radius: 8px;
+   border: none;
+   margin-bottom: 34px;
+   width: 100%;
+   height: 50vh;
+  }
+  .rightMessage{
+    width: 50%;
+  }
+  
+  .contactForm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .contactForm input{
+    padding: 18px 54px;
+    outline: none;
+    padding: 19px;
+    border: 1px solid gray;
+    border-radius: 8px;
+
+  }
+
+  #messageTextarea{
+    grid-column: span 2;
+    height: 222px;
+    outline: none;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 8px;
+  }
+  
+  .sendMsgBtn {
+    width: 100%;
+    padding: 18px 54px;
+    border-radius: 8px;
+    background-color: var(--primaryColor);
+    color: var(--textWhite);
+    border: none;
+    margin-bottom: 23px;
+    cursor: pointer;
+  }
+  
+
+
+  .error{
+  color: red;
+  }
+
+  
+
+/* **********************media queries*********************** */
+
+
+@media screen and (max-width: 1000px) {
+  .locationMessage_container{
+    flex-direction: column;
+     justify-content: flex-start;
+  }
+  .address_image{
+    justify-content: flex-start;
+  }
+
+  .leftLocation{
+    width: 100%;
+  }
+  .map{
+   width: 100%;
+  }
+  .rightMessage{
+    width: 100%;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .address {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contactForm{
+    grid-template-columns: repeat(1c, 1fr);
+    gap: 10px;
+  }
+
+  #name, #email, #phone, #subject, #message{
+    grid-column: span 2;
+  }
+
+  .address {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 44px;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+  
+
+  
+}

@@ -24,6 +24,10 @@ const SideMenu = () => {
             <FaUserPlus />
             <span>Manage Users</span>
           </Link>
+          <Link to={"/dashboard/admin/contact"} className="listItems">
+            <FaUserPlus />
+            <span>Contact</span>
+          </Link>
           
           
          

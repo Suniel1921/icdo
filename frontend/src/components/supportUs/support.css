@@ -59,3 +59,31 @@
     color: var(--textWhite);
 
 }
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .support_content{
+        flex-direction: column;
+    }
+    .support_left{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .support_right{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .child_icons {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .support_heading {
+        font-size: 25px;
+    }
+    
+}

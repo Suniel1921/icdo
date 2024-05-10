@@ -1,0 +1,23 @@
+.footer_container{
+    background-color: var(--primaryColor);
+    padding: 34px;
+    color: var(--textWhite);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.socila_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+
+.instech{
+    cursor: pointer;
+}

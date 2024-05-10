@@ -12,6 +12,12 @@ router.get('/admin', requireLogin, isAdmin, controller.admin);
 
 
 
+//contact route (😊)
+router.post("/contact", controller.contact);
+router.get("/getAllContactData", controller.getAllContactData);
+
+
+
 
 
 module.exports = router;

@@ -1,9 +1,11 @@
 /* contactData.css */
 
-.contactData {
+/* .contactData {
     margin-top: 56px;
     margin-bottom: 222px;
-}
+} */
+
+
 
 .container {
     max-width: 1200px;
@@ -12,10 +14,11 @@
 }
 
 .contactData_container {
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-top: 34px;
 }
 
 .contactData_container h2 {

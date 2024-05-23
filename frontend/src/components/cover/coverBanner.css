@@ -64,3 +64,23 @@
     cursor: pointer;
 }
 
+
+
+@media screen and (max-width: 900px) {
+    .coverBanner_heading {
+        font-size: 24px;
+        margin: 23px 0px 23px 0;
+        width: 70%;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .coverBanner_heading {
+        font-size: 18px;
+        margin: 23px 0px 23px 0;
+        width: 90%;
+        text-align: center;
+    }
+    
+}

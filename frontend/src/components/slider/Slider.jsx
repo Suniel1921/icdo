@@ -5,7 +5,8 @@ import "../slider/slider.css";
 
 const Slider = () => {
   const [index, setIndex] = useState(0);
-  const images = ["/image/child.jpg", "/image/child2.jpg", "/image/child3.jpg"];
+  const images = ["/image/Gallery/g0.jpg", "/image/Gallery/g1.jpg", "/image/Gallery/g2.jpg", "/image/Gallery/g3.jpg"];
+  // const images = ["/image/child.jpg", "/image/child2.jpg", "/image/child3.jpg"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -29,7 +30,7 @@ const Slider = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
-            <button className="btn contact_btn">Contact Us</button>
+            {/* <button className="btn contact_btn">Contact Us</button> */}
           </div>
         </div>
       ))}

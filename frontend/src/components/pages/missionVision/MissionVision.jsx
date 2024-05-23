@@ -15,7 +15,7 @@ const MissionVision = () => {
       <div className="servicechild_Grid">
         <div className="card firstCard">
           <h3>
-          Vision, Mission and Objectives.
+          Thematic Area and Program
           </h3>
           <button className="contactBtn" onClick={() => navigate("/contact")}>
             Contact Us
@@ -24,27 +24,27 @@ const MissionVision = () => {
         <div className="card">
           <div className="serviceContent">
             <img className="serviceIcon" src="/img/service (3).png" alt="" />
-            <h3>Vision</h3>
+            <h3>Adaptation (DRR & CCA)</h3>
             <p>
-            ICDO envisions a self-reliant, well-governed, prosperous, just, and equitable society, fostering sustainable development, environmental stewardship, cultural preservation, technological advancement, inclusive governance, gender equality, education for all, healthcare accessibility, peaceful coexistence, and respect for human rights, diversity, and indigenous knowledge.
+            Disaster Risk Reduction (DRR) and Climate Change Adaptation (CCA) aims to build resilient communities, reduce vulnerability and strengthen climate smart development activities. As part of this, ICDO-Lalitpur will continue to be active in strengthening local and district level actors, building their capacity to prepare for disasters according to their context and environment.
             </p>
           </div>
         </div>
         <div className="card">
           <div className="serviceContent">
             <img className="serviceIcon" src="/img/service (2).png" alt="" />
-            <h3>Mission</h3>
+            <h3>Sustainable Livelihood</h3>
             <p>
-            Capacity development of discriminated, poor and marginalized people's organizations on identifying, mobilizing and exchanging resources for their empowerment to make self- reliant, well-governed, prosperous, just and equitable society.
+            Rural livelihood in Nepal is supported by services generated from biodiversity and natural resource. The conservation of biodiversity will ensure that rural communities’ access to natural resources is sustained. It is, therefore, necessary to support the government and other actors to devise policies as well as implement programs that will build livelihood assets of poor and marginalized communities living in both the rural and urban areas.
             </p>
           </div>
         </div>
         <div className="card">
           <div className="serviceContent">
             <img className="serviceIcon" src="/img/service (5).png" alt="" />
-            <h3>Goal</h3>
+            <h3>Organizational Development</h3>
             <p>
-            To uplift the living standard of discriminated, poor, and marginalized people, ICDO empowers them to claim their rights, access education, healthcare, and economic opportunities. By fostering social inclusion, sustainable development, and cultural preservation, we aim for a just, equitable, and prosperous society.
+            Nepal is in the stage of transition to peace, democracy and stability. The development pathways are necessary but challenging. The agencies and actors in Nepal need to demonstrate leadership by supporting government and communities to achieve prosperity and socio-economic development. It is also time for NGOs like ICDO-Lalitpur to empower communities and rural institutions, with a focus.
             </p>
           </div>
         </div>
@@ -55,9 +55,9 @@ const MissionVision = () => {
               src="/img/service (1).png"
               alt=""
             />
-            <h3>Testing</h3>
+            <h3>Governance and Justice</h3>
             <p>
-            ICDO aims to empower marginalized people for a self-reliant, just, and prosperous society through rights advocacy, access to education and healthcare, and fostering sustainable development.
+            ICDO-Lalitpur focuses on actions which enable poor and oppressed sections of the community to obtain equitable access to resources and services. This approach involves intervention at local, as well as district and national levels. Emphasis will also be on lobbying for priority populations’ rights-based policies, strategies and programs through adopting evidence-based and participatory advocacy approach.
             </p>
           </div>
         </div>

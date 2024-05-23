@@ -7,7 +7,7 @@ import About from "./components/pages/about/About";
 import OurTeam from "./components/pages/ourteams/OurTeam";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 import AdminProtectedRoute from "./components/admin/AdminProtectedRoute";
 import AdminDashboard from "./components/admin/AdminDashboard";
 import Staffs from "./components/admin/Staffs";
@@ -24,28 +24,19 @@ const App = () => {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/contact" element={<Contact />} />
             <Route path="/ourteam" element={<OurTeam />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />       
+            <Route path="/register" element={<Register />} />
 
-
-             {/* protected admin routes */}
-          <Route path="/dashboard" element={<AdminProtectedRoute/>}>
-            <Route path="admin" element={<AdminDashboard/>}/>
-            <Route path="/dashboard/admin/staffs" element={<Staffs/>}/>
-            <Route path="/dashboard/admin/staffList" element={<StaffsList/>}/>
-            <Route path="/dashboard/admin/contact" element={<ContactData/>}/>
-
-
+            {/* protected admin routes */}
+            <Route path="/dashboard" element={<AdminProtectedRoute />}>
+              <Route path="admin" element={<AdminDashboard />} />
+              <Route path="/dashboard/admin/staffs" element={<Staffs />} />
+              <Route path="/dashboard/admin/staffList" element={<StaffsList />}/>
+              <Route path="/dashboard/admin/contact" element={<ContactData />}/>
+            </Route>
           </Route>
-            
-
-          </Route>
-
-         
-
-
         </Routes>
       </Router>
       <Toaster />

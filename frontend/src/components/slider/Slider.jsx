@@ -27,8 +27,7 @@ const Slider = () => {
             <p>Always donote for children</p>
             <h2 className="heading">Lend a Helping Hand to Those in Need</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            Your contribution can make a significant impact on the lives of children in need. By donating to our cause, you are providing essential support and resources that can positively affect their future.
             </p>
             {/* <button className="btn contact_btn">Contact Us</button> */}
           </div>

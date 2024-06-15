@@ -7,7 +7,7 @@ const MissionVision = () => {
   return (
     <div className="container">
       <div className="servceChild_Heading">
-        <h2 className="title">Heading goes here </h2>
+        <h2 className="title">Empowering Marginalized Communities </h2>
         <p className="sersecondryHeading">
         ICDO aims to empower marginalized people for a self-reliant, just, and prosperous society through rights advocacy, <br /> access to education and healthcare, and fostering sustainable development.
         </p>
@@ -21,7 +21,7 @@ const MissionVision = () => {
             Contact Us
           </button>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-up">
           <div className="serviceContent">
             <img className="serviceIcon" src="/img/service (3).png" alt="" />
             <h3>Adaptation (DRR & CCA)</h3>
@@ -30,7 +30,7 @@ const MissionVision = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-right">
           <div className="serviceContent">
             <img className="serviceIcon" src="/img/service (2).png" alt="" />
             <h3>Sustainable Livelihood</h3>
@@ -39,7 +39,7 @@ const MissionVision = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-up">
           <div className="serviceContent">
             <img className="serviceIcon" src="/img/service (5).png" alt="" />
             <h3>Organizational Development</h3>
@@ -48,7 +48,7 @@ const MissionVision = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-left">
           <div className="serviceContent">
             <img
               className="serviceIcon"

@@ -5,7 +5,7 @@ const Count = () => {
   const [countData, setCountData] = useState([
     { label: 'project completed', count: 10, animated: false },
     { label: 'on Going Project', count: 20, animated: false },
-    { label: 'Happy Client', count: 100, animated: false },
+    // { label: 'Happy Client', count: 100, animated: false },
     { label: 'awards', count: 8, animated: false },
   ]);
 

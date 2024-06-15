@@ -12,6 +12,9 @@
     justify-content: space-around;
     align-content: center;
 }
+.count_content:hover{
+    cursor: pointer;
+}
 
 
 .count_content h2{

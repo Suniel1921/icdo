@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/home/Home";
 import Layout from "./components/layout/Layout";
@@ -14,8 +14,17 @@ import Staffs from "./components/admin/Staffs";
 import StaffsList from "./components/admin/StaffsList";
 import Contact from "./components/pages/contact/Contact";
 import ContactData from "./components/admin/ContactData";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const App = () => {
+  //for aos animations
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+    });
+  }, []);
+
   return (
     <>
       <Router>

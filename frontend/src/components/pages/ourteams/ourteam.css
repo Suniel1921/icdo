@@ -28,8 +28,10 @@
 } */
 
 .ourTeam_card img {
-    width: 50%;
-    border-radius: 50%;
+    width: 150px; /* Fixed width to maintain a consistent circular shape */
+    height: 150px; /* Fixed height to match width */
+    object-fit: cover;
+    border-radius: 50%; /* Circular shape */
 }
 
 

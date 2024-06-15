@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="navbar_container">
         <div className='global_flex container'>
           {/* <h3>logo</h3> */}
-          <img className='logo' src="/image/icdoLogo.jpg" alt="icdo logo" />
+          <img className='logo' src="/image/icdoLogo.png" alt="icdo logo" />
           {auth.user ? (
             <>
               <h3 className='userName'>Hi ! {auth.user.name}</h3>

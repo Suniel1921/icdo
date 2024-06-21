@@ -11,7 +11,7 @@ const SupportUs = () => {
     <div className='support_container'>
         <div className='support_content'>
             <div className="support_left">
-                <p className='support_para'>SUPPORT US</p>
+                {/* <p className='support_para'>SUPPORT US</p> */}
                 <h3 className='support_heading'>Supporting People With Disabilities Since 1971</h3>
                 <p>For over five decades, we have been steadfast in our commitment to supporting individuals with disabilities. Our mission is rooted in providing essential resources, advocacy, and opportunities for empowerment. Through our unwavering dedication, we strive to create a world where every individual, regardless of ability, can live with dignity and independence.</p>
 

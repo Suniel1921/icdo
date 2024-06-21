@@ -12,7 +12,10 @@
     justify-content: space-around;
     align-content: center;
 }
-.count_content:hover{
+
+.count_content:hover h2,
+.count_content:hover p {
+    color:var(--primaryColor);
     cursor: pointer;
 }
 

@@ -1,23 +1,30 @@
-.banner_container{
-    background-color:var(--primaryColor);
-    color: var(--textWhite);
+.flag {
+  width: 10%;
+  position: relative;
+  top: 0;
+  left: 174px;
+}
+
+
+
+.banner_container {
+  background-color: var(--primaryColor);
+  color: var(--textWhite);
 }
 
 .social_icons p{
-    font-size: 23px;
-    
+    color: white;
+  font-size: 23px;
 }
-.social_icons p:hover{
-    color: blue;
-    transition: all .5s ease;
+.social_icons p:hover {
+  color: blue;
+  transition: all 0.5s ease;
 }
 
 
 
 @media screen and (max-width: 600px) {
-    .banner_container{
-        display: none;
-    }
-
-    
+  .banner_container {
+    display: none;
+  }
 }

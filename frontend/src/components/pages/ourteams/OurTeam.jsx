@@ -34,7 +34,7 @@ const OurTeam = () => {
     <div className="ourTeam_container">
       <div className="container teamHeading">
         <p>Our Team</p>
-        <h2>Meet the brilliant minds behind our <br /> successful campaigns</h2>
+        <h2>Meet the Brilliant Minds Behind our <br /> Successful Campaigns</h2>
         <div className="ourTeam">
           {allUsers.map((staff) => (
             <div className="ourTeam_card" key={staff.id}>

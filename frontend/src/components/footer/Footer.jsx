@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="container">
         <div className='footer'>
           <div className='allrightReserved'>
-            <h3>Copyright &copy; 2024. ICDO. All Rights Reserved.</h3>
+          <h3>&copy; 2024 ICDO. All Rights Reserved.</h3>
           </div>
           <div className='instech' onClick={openLink}>Powered By Ins Technology</div>
           <div className='socila_icons'>

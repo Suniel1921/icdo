@@ -32,6 +32,7 @@
     height: 150px; /* Fixed height to match width */
     object-fit: cover;
     border-radius: 50%; /* Circular shape */
+    border: 2px solid var(--primaryColor);
 }
 
 

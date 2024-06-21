@@ -10,21 +10,21 @@ const Testimonials = () => {
   const navigate = useNavigate();
   const testimonials = [
     {
-      text: "test",
+      text: "ICDO's dedication to fostering cultural diversity and inclusion is unparalleled. Their programs have enriched my understanding of different cultures and strengthened our community bonds. I am proud to be part of such an impactful organization",
       website : 'test webiste',
-      user: "client testimonials goes here",
+      user: "Maria Lopez",
       rating: "/image/rating.png",
       image: "/image/omfood.png"
     },
     {
-      text: "Working with Ins Technology was a game-changer for my business. They not only built us a powerful custom application but also provided exceptional support throughout. Their dedication and professionalism exceeded our expectations.",
-      user: "client testimonials goes here",
+      text: "ICDO's initiatives in promoting cultural awareness are crucial in today's globalized world. Their workshops have provided invaluable insights into cultural heritage, making a significant difference in bridging cultural gaps.",
+      user: "Dr. Ahmed Khan",
       rating: "/image/rating.png",
       image: "/image/realstate.png"
     },
     {
-      text: "Ins Technology has been an invaluable partner for our business. From designing captivating graphics to executing effective digital marketing strategies, they've helped us achieve remarkable growth.",
-      user: "client testimonials goes here",
+      text: "As a newcomer, ICDO's support has been invaluable. Their language classes and cultural programs helped me feel at home and connected to my new community. I am deeply grateful for their assistance.",
+      user: "Sofia Petrova",
       rating: "/image/rating.png",
       image: "/image/chamling.png"
     }
@@ -44,14 +44,14 @@ const Testimonials = () => {
     <div className="container">
       <div className="testimonials">
         <div className="left_testimonial">
-          <img src="/image/about3.png" alt="" />
-          {/* <img src="/image/testimonials.png" alt="" /> */}
+          {/* <img src="/image/testimonials.jpg" alt="" /> */}
+          <img src="/image/testimonials.png" alt="" />
         </div>
         <div className="right_testimonial">
-          <p className="title">Testimonials</p>
-          <h3 className="secondryHeading">
-            We Appreciate Your Feedbacks Very Much
-          </h3>
+          <h4 className="title">Testimonials</h4>
+          <h2 className="secondryHeading">
+          We Greatly Appreciate Your Feedback
+          </h2>
 
           <Slider {...settings}>
             {testimonials.map((testimonial, index) => (

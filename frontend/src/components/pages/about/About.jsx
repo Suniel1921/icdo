@@ -20,18 +20,18 @@ const About = () => {
             <h2 className="secondary_heading">A world where poverty will not exists </h2>
             <p>We are the largest crowdfunding</p>
             <p>
-            At INGO, our mission is to create a world without poverty. We link compassionate individuals with impactful projects, guaranteeing that each contribution brings tangible change
+            ICDO  is a non-profit making, non-governmental (NGO) and non-political network organization of Community Based Organizations (CBOs) of Lalitpur committed to enhance the well-being of poor, vulnerable and marginalized people/communities. ICDO-Lalitpur envisions to enhance the well- being of target groups by managing resources, building capacity, promoting social justice and developing multi-stakeholder partnership. With it headquarter located at Chapagaun, Lalitpur, it covers much of the remote wards  of southern Lalitpur.
+
             </p>
             <p>
-            In our efforts at ICDO, we're dedicated to eliminating poverty worldwide. By matching caring donors with meaningful initiatives, we ensure that every gift has a genuine effect
+            The organization focuses on Disaster Risk Reduction and Climate Change Adaptation, Sustainable Livelihood, Governance and Justice, and Organizational Development. Key policies include the Finance and Administration Policy for sound financial management, the Employment Policy for fair hiring practices, and the Code of Conduct and Code of Ethics for maintaining ethical standards. A Complaint Handling Mechanism ensures transparent grievance resolution. The Child Protection Policy prioritizes children's safety, while the Gender Equality and Social Inclusion (GESI) Policy promotes inclusivity and equal opportunities for all, especially marginalized groups.
+
             </p>
-            <p>
-            Here at ICDO, our goal is clear: eradicating poverty globally. Through our platform, we unite kind-hearted supporters with vital projects, guaranteeing that every donation counts
-            </p>
-            <div className="button_container">
+          
+            {/* <div className="button_container">
               <button className="btn readMore_btn">Read more</button>
               <button className="btn ">How we work</button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -17,12 +17,11 @@ const About = () => {
               <img src="/image/about2.png" alt="image" />
               <h3>Welcome to ICDO</h3>
             </div>
-            <h2 className="secondary_heading">A world where poverty will not exists </h2>
-            <p>We are the largest crowdfunding</p>
-            <p>
-            ICDO  is a non-profit making, non-governmental (NGO) and non-political network organization of Community Based Organizations (CBOs) of Lalitpur committed to enhance the well-being of poor, vulnerable and marginalized people/communities. ICDO-Lalitpur envisions to enhance the well- being of target groups by managing resources, building capacity, promoting social justice and developing multi-stakeholder partnership. With it headquarter located at Chapagaun, Lalitpur, it covers much of the remote wards  of southern Lalitpur.
+            {/* <h2 className="secondary_heading">Short Description about ICDO</h2> */}
+            <h2 className="secondary_heading">Short Description about ICDO </h2>
+            <p></p>
 
-            </p>
+            <p>ICDO  is a non-profit making, non-governmental (NGO) and non-political network organization of Community Based Organizations (CBOs) of Lalitpur committed to enhance the well-being of poor, vulnerable and marginalized people/communities. ICDO-Lalitpur envisions to enhance the well- being of target groups by managing resources, building capacity, promoting social justice and developing multi-stakeholder partnership. With it headquarter located at Chapagaun, Lalitpur, it covers much of the remote wards  of southern Lalitpur.</p>
             <p>
             The organization focuses on Disaster Risk Reduction and Climate Change Adaptation, Sustainable Livelihood, Governance and Justice, and Organizational Development. Key policies include the Finance and Administration Policy for sound financial management, the Employment Policy for fair hiring practices, and the Code of Conduct and Code of Ethics for maintaining ethical standards. A Complaint Handling Mechanism ensures transparent grievance resolution. The Child Protection Policy prioritizes children's safety, while the Gender Equality and Social Inclusion (GESI) Policy promotes inclusivity and equal opportunities for all, especially marginalized groups.
 

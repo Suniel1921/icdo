@@ -70,7 +70,7 @@ const Contact = () => {
                 <div className="address_content">
                   <h2>Address</h2>
                   <p className="subPara">
-                    Jhyalipati, Chapagaun-11, Lalitpur Nepal
+                    Godawari Municipality-11, Chapagaun, Lalitpur Nepal
                   </p>
                 </div>
               </div>

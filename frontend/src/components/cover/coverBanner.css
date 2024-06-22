@@ -3,7 +3,7 @@
 }
 
 .coverBanner_content {
-    background-image: url('/image/child.jpg');
+    background-image: url('/image/cover.jpg');
     background-position: center;
     background-size: cover;
     height: 50vh;

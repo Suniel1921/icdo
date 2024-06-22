@@ -34,7 +34,8 @@ const Navbar = () => {
               <ul className={`navlinks global_flex ${showMenu ? 'show' : ''}`}>
                 <li><Link to={'/'}>Home</Link></li>
                 <li><Link to={'/abouts'}>About</Link></li>
-                <li><Link to={'/ourteam'}>Our Team</Link></li>
+                <li><Link to={'/ourteam'}>Team</Link></li>
+                 <li><Link to={'/announcement'}>Announcement</Link></li>
                 <li><Link to={'/contact'}>Contact</Link></li>
                 <li className='logout' onClick={handleLogout}>Logout</li>
               </ul>
@@ -44,7 +45,7 @@ const Navbar = () => {
               <li><Link to={'/'}>Home</Link></li>
               <li><Link to={'/abouts'}>About</Link></li>
               <li><Link to={'/ourteam'}>Our Team</Link></li>
-              <li><Link to={'/login'}>Announcement</Link></li>
+              <li><Link to={'/announcement'}>Announcement</Link></li>
               <li><Link to={'/contact'}>Contact</Link></li>
               <li><Link to={'/login'}>Login</Link></li>
               {/* <li><Link to={'/register'}>Register</Link></li> */}

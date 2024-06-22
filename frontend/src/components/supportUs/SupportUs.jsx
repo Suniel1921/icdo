@@ -13,21 +13,21 @@ const SupportUs = () => {
             <div className="support_left">
                 {/* <p className='support_para'>SUPPORT US</p> */}
                 <h3 className='support_heading'>Working in Lalitpur Since 2010</h3>
-                <p>For over five decades, we have been steadfast in our commitment to supporting individuals with disabilities. Our mission is rooted in providing essential resources, advocacy, and opportunities for empowerment. Through our unwavering dedication, we strive to create a world where every individual, regardless of ability, can live with dignity and independence.</p>
+                <p>we have been steadfast in our commitment to supporting individuals with disabilities. Our mission is rooted in providing essential resources, advocacy, and opportunities for empowerment. Through our unwavering dedication, we strive to create a world where every individual, regardless of ability, can live with dignity and independence.</p>
 
                 <div className='child_icons'>
                     <div className='child'>
                         <p className='support_icon'><FaRecycle/></p>
                         <div>
-                        <h3>Direct Impact</h3>
-                        <p>Your donations directly impact individuals.</p>
+                        <h3>Heading goes here</h3>
+                        <p>para goes here</p>
                         </div>
                     </div>
                      <div className='child'>
                         <p className='support_icon'><GiBurningTree/></p>
                         <div>
-                        <h3>Meaningful Programs</h3>
-                        <p>Our programs meet individuals' unique needs.</p>
+                        <h3>Heading goes here</h3>
+                        <p>para goes here</p>
                         </div>
                     </div>
                      <div className='child'>

@@ -63,8 +63,7 @@ const StaffsList = () => {
         formData.append("image", values.image.file.originFileObj);
       }
       const response = await axios.put(
-        `${import.meta.env.VITE_REACT_APP_URL}/api/v1/upload/updateUser/${
-          editUser._id
+        `${import.meta.env.VITE_REACT_APP_URL}/api/v1/upload/updateUser/${editUser._id
         }`,
         formData
       );
@@ -96,8 +95,7 @@ const StaffsList = () => {
   const confirmDeleteHandler = async () => {
     try {
       const response = await axios.delete(
-        `${
-          import.meta.env.VITE_REACT_APP_URL
+        `${import.meta.env.VITE_REACT_APP_URL
         }/api/v1/upload/deleteUser/${deleteUserId}`
       );
       if (response.data.success) {
@@ -139,7 +137,7 @@ const StaffsList = () => {
       dataIndex: "position",
       key: "position",
     },
-    
+
     {
       title: "Action",
       key: "action",
@@ -159,9 +157,9 @@ const StaffsList = () => {
           <div className="sidemenu">
             <SideMenu />
           </div>
-          
+
           <div className="userlist_container">
-          <h3>User list</h3>
+            <h3>User list</h3>
             {dataSource.length > 0 ? (
               <Table
                 columns={columns}

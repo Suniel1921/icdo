@@ -23,14 +23,14 @@ const Slider = () => {
           className={idx === index ? "slide active" : "slide"}
           style={{ backgroundImage: `url(${image})` }}
         >
-          {/* <div className="text container">
-            <p>Always donote for children</p>
-            <h2 className="heading">Lend a Helping Hand to Those in Need</h2>
-            <p>
+          <div className="text container">
+            {/* <p>Always donote for children</p> */}
+            {/* <h2 className="heading">Welcome to the ICDO</h2> */}
+            {/* <p>
             Your contribution can make a significant impact on the lives of children in need. By donating to our cause, you are providing essential support and resources that can positively affect their future.
-            </p>
-            <button className="btn contact_btn">Contact Us</button>
-          </div> */}
+            </p> */}
+            {/* <button className="btn contact_btn">Contact Us</button> */}
+          </div>
         </div>
       ))}
     </div>

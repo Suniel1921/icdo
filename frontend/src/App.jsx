@@ -22,6 +22,8 @@ import OnGoingProject from "./components/countingNumber/OnGoingProject";
 import NewAbout from "./components/pages/about/NewAbout";
 import Gallery from "./components/admin/Gallery";
 import Announcement from "./components/pages/announcement/Announcement";
+import Members from "./components/countingNumber/Member";
+import Announce from "./components/admin/Announce";
 
 const App = () => {
   //for aos animations
@@ -49,6 +51,7 @@ const App = () => {
         <Route path="/" element={<Count />} />
         <Route path="/project-completed" element={<ProjectCompleted />} />
         <Route path="/ongoing-project" element={<OnGoingProject />} />
+        <Route path="/members" element={<Members />} />
      
 
             {/* protected admin routes */}
@@ -57,7 +60,8 @@ const App = () => {
               <Route path="/dashboard/admin/staffs" element={<Staffs />} />
               <Route path="/dashboard/admin/staffList" element={<StaffsList />}/>
               <Route path="/dashboard/admin/contact" element={<ContactData />}/>
-              <Route path="/dashboard/admin/gallery" element={< Gallery/>}/>
+              <Route path="/dashboard/admin/gallery" element={<Gallery/>}/>
+              <Route path="/dashboard/admin/announce" element={<Announce/>}/>
             </Route>
           </Route>
         </Routes>

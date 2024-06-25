@@ -1,12 +1,14 @@
+// Count.js
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../countingNumber/count.css';
+import './count.css';
 
 const Count = () => {
   const navigate = useNavigate();
   const [countData, setCountData] = useState([
     { label: 'Project completed', count: 10, animated: false, route: '/project-completed' },
-    { label: 'on Going Project', count: 20, animated: false, route: '/ongoing-project' },
+    { label: 'On Going Project', count: 20, animated: false, route: '/ongoing-project' },
+    { label: 'Members', count: 12, animated: false, route: '/members' },
     { label: 'Awards', count: 8, animated: false, route: null },
   ]);
 
@@ -79,11 +81,3 @@ const Count = () => {
 }
 
 export default Count;
-
-
-
-
-
-
-
-

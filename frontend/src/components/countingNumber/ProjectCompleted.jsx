@@ -59,6 +59,14 @@ const ProjectCompleted = () => {
             duration: 'Sep.1, 2011 to July 31, 2012',
             area: 'Lalitpur District (mostly program VDCs of SLIP project)',
         },
+        {
+            name: 'Economic Recovery Project (ERP)',
+            donor: 'DFAT, LWF Nepal',
+            budget: '3,881,000/-',
+            duration: 'SJune 2021 - June 2023',
+            area: 'Bagmati RM and Godawari Municipality',
+
+        }
     ];
 
     return (

@@ -5,7 +5,7 @@ import "../slider/slider.css";
 
 const Slider = () => {
   const [index, setIndex] = useState(0);
-  const images = ["/image/Gallery/g0.jpg", "/image/Gallery/g1.jpg", "/image/Gallery/g2.jpg", "/image/Gallery/g3.jpg"];
+  const images = ["/image/sliderimg1.jpg", "/image/sliderimg2.jpg", "/image/sliderimg3.jpg", "/image/sliderimg4.jpg","/image/Gallery/g2.jpg", "/image/Gallery/g3.jpg"];
   // const images = ["/image/child.jpg", "/image/child2.jpg", "/image/child3.jpg"];
 
   useEffect(() => {
@@ -25,10 +25,12 @@ const Slider = () => {
         >
           <div className="text container">
             {/* <p>Always donote for children</p> */}
-            {/* <h2 className="heading">Welcome to the ICDO</h2> */}
-            {/* <p>
-            Your contribution can make a significant impact on the lives of children in need. By donating to our cause, you are providing essential support and resources that can positively affect their future.
-            </p> */}
+            <h2 className="heading">Welcome to the ICDO</h2>
+            <p>
+            ICDO is a non-profit organization focused on improving the lives of marginalized communities in
+southern Lalitpur by managing resources, building skills, and advocating for social justice.
+
+            </p>
             {/* <button className="btn contact_btn">Contact Us</button> */}
           </div>
         </div>

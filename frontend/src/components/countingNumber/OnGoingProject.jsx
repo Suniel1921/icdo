@@ -10,13 +10,7 @@ const OnGoingProject = () => {
             budget: '17,042,022/- For the year 2023',
             area: 'Bagmati RM Ward No. 3, 6, 7 and Godawari Municipality Ward No. 5, 6, 7, 9',
         },
-        {
-            name: 'Economic Recovery Project (ERP)',
-            donor: 'DFAT, LWF Nepal',
-            duration: 'June 2021 - June 2023',
-            budget: '3,881,000/-',
-            area: 'Bagmati RM and Godawari Municipality',
-        },
+        
     ];
 
     return (

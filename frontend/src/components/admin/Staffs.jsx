@@ -356,7 +356,7 @@ const Staffs = () => {
               )}
 
             <button
-              className="register_btn"
+              className="register_btn staffBtn"
               type="submit"
               disabled={
                 formik.isSubmitting ||

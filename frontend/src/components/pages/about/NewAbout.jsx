@@ -51,8 +51,8 @@ const NewAbout = () => {
             </ul>
           </div>
           <div id="approach-section">
-            <h2>Working Approach</h2>
-            <img src="https://via.placeholder.com/600x400" alt="Working Approach" id="approach-image"/>
+            <h2 className='newAboutHeading'>Working Approach</h2>
+            <img className='newAboutImg' src="/image/work.jpg" alt="Working Approach" id="approach-image"/>
             <p id="approach-text">
               The purpose of ICDO-Lalitpur's working modality is to contribute to the development of self-reliant groups, CBOs, or cooperatives capable of continuing the project interventions and growing or graduating on their own even after the exit of ICDO-Lalitpur.
             </p>
@@ -75,15 +75,15 @@ const NewAbout = () => {
             </ul>
           </div>
           <div id="target-group-section">
-            <h2>Target Group</h2>
-            <img src="https://via.placeholder.com/600x400" alt="Target Group" id="target-group-image"/>
+            <h2 className='newAboutHeading'>Target Group</h2>
+            <img className='newAboutImg' src="/image/work2.jpg" alt="Target Group" id="target-group-image"/>
             <p id="target-group-text">
               ICDO-Lalitpur works with disaster-affected, marginalized, and vulnerable people who are socioeconomically disadvantaged. Priority is given to women, people with disabilities, and the landless. We work with both rural and urban populations, emphasizing remote and vulnerable households and communities.
             </p>
           </div>
           <div id="core-principles-section">
-            <h2>Core Principles and Values</h2>
-            <img src="https://via.placeholder.com/600x400" alt="Core Principles and Values" id="core-principles-image"/>
+            <h2 className='newAboutHeading'>Core Principles and Values</h2>
+            <img className='newAboutImg' src="/image/work1.jpg" alt="Core Principles and Values" id="core-principles-image"/>
             <ul>
               <li>Accountability and transparency</li>
               <li>Inclusive and participatory</li>

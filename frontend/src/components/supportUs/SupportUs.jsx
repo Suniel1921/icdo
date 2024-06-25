@@ -48,7 +48,7 @@ const SupportUs = () => {
 
             </div>
             <div className="support_right">
-                <img src="/image/about3.png" alt="" />
+                <img src="/image/support1.jpg" alt="" />
             </div>
         </div>
 

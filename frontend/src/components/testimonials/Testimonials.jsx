@@ -12,19 +12,19 @@ const Testimonials = () => {
     {
       text: "ICDO's dedication to fostering cultural diversity and inclusion is unparalleled. Their programs have enriched my understanding of different cultures and strengthened our community bonds. I am proud to be part of such an impactful organization",
       website : 'test webiste',
-      user: "Maria Lopez",
+      user: "Ram Bahadur Shrestha ",
       rating: "/image/rating.png",
       image: "/image/omfood.png"
     },
     {
       text: "ICDO's initiatives in promoting cultural awareness are crucial in today's globalized world. Their workshops have provided invaluable insights into cultural heritage, making a significant difference in bridging cultural gaps.",
-      user: "Dr. Ahmed Khan",
+      user: "Yogesh Shahi",
       rating: "/image/rating.png",
       image: "/image/realstate.png"
     },
     {
       text: "As a newcomer, ICDO's support has been invaluable. Their language classes and cultural programs helped me feel at home and connected to my new community. I am deeply grateful for their assistance.",
-      user: "Sofia Petrova",
+      user: "Sita Shrestha",
       rating: "/image/rating.png",
       image: "/image/chamling.png"
     }

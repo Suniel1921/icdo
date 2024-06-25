@@ -19,15 +19,15 @@ const SupportUs = () => {
                     <div className='child'>
                         <p className='support_icon'><FaRecycle/></p>
                         <div>
-                        <h3>Heading goes here</h3>
-                        <p>para goes here</p>
+                        <h3>Disaster Risk Reduction</h3>
+                        <p>Minimize vulnerabilities, mitigate disasters planning.</p>
                         </div>
                     </div>
                      <div className='child'>
                         <p className='support_icon'><GiBurningTree/></p>
                         <div>
-                        <h3>Heading goes here</h3>
-                        <p>para goes here</p>
+                        <h3>Empowering Women and Children</h3>
+                        <p>Empower women and children education, training.</p>
                         </div>
                     </div>
                      <div className='child'>

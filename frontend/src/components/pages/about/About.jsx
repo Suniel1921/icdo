@@ -10,7 +10,7 @@ const About = () => {
       <div className="about_container">
         <div className="about_content global_flex container">
           <div className="about_left" data-aos="fade-down-right">
-            <img src="/image/about.png" alt="about image" />
+            <img src="/image/about2.jpg" alt="about image" />
           </div>
           <div className="about_right">
             <div className="small_image">

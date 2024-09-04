@@ -26,28 +26,29 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar_container">
-        <div className='global_flex container'>
-          {/* <h3>logo</h3> */}
-          <img className='logo' src="/image/icdoLogo.jpg" alt="icdo logo" />
+        <div className='global_flex container'>         
+          <Link to={'/'}><img className='logo' src="/image/icdoLogo.png" alt="icdo logo" /></Link>
           {auth.user ? (
             <>
               <h3 className='userName'>Hi ! {auth.user.name}</h3>
               <ul className={`navlinks global_flex ${showMenu ? 'show' : ''}`}>
                 <li><Link to={'/'}>Home</Link></li>
-                <li><Link to={'/about'}>About</Link></li>
+                <li><Link to={'/abouts'}>About</Link></li>
+                <li><Link to={'/ourteam'}>Team</Link></li>
+                 <li><Link to={'/announcement'}>Announcement</Link></li>
                 <li><Link to={'/contact'}>Contact</Link></li>
-                <li><Link to={'/ourteam'}>Our Team</Link></li>
                 <li className='logout' onClick={handleLogout}>Logout</li>
               </ul>
             </>
           ) : (
             <ul className={`navlinks global_flex ${showMenu ? 'show' : ''}`}>
               <li><Link to={'/'}>Home</Link></li>
-              <li><Link to={'/about'}>About</Link></li>
-              <li><Link to={'/contact'}>Contact</Link></li>
+              <li><Link to={'/abouts'}>About</Link></li>
               <li><Link to={'/ourteam'}>Our Team</Link></li>
+              <li><Link to={'/announcement'}>Announcement</Link></li>
+              <li><Link to={'/contact'}>Contact</Link></li>
               <li><Link to={'/login'}>Login</Link></li>
-              <li><Link to={'/register'}>Register</Link></li>
+              {/* <li><Link to={'/register'}>Register</Link></li> */}
             </ul>
           )}
           {/* Hamburger Menu */}

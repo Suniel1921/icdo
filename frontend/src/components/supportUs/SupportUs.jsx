@@ -11,44 +11,44 @@ const SupportUs = () => {
     <div className='support_container'>
         <div className='support_content'>
             <div className="support_left">
-                <p className='support_para'>SUPPORT US</p>
-                <h3 className='support_heading'>Supporting People With Disabilities Since 1971</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
+                {/* <p className='support_para'>SUPPORT US</p> */}
+                <h3 className='support_heading'>Working in Lalitpur Since 2010</h3>
+                <p>we have been steadfast in our commitment to supporting individuals with disabilities. Our mission is rooted in providing essential resources, advocacy, and opportunities for empowerment. Through our unwavering dedication, we strive to create a world where every individual, regardless of ability, can live with dignity and independence.</p>
 
                 <div className='child_icons'>
                     <div className='child'>
                         <p className='support_icon'><FaRecycle/></p>
                         <div>
-                        <h3>donate for earch</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <h3>Disaster Risk Reduction</h3>
+                        <p>Minimize vulnerabilities, mitigate disasters planning.</p>
                         </div>
                     </div>
                      <div className='child'>
                         <p className='support_icon'><GiBurningTree/></p>
                         <div>
-                        <h3>donate for earch</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        <h3>Empowering Women and Children</h3>
+                        <p>Empower women and children education, training.</p>
                         </div>
                     </div>
                      <div className='child'>
                         <p className='support_icon'><FaHandHoldingWater/></p>
                        <div>
-                       <h3>donate for earch</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                       <h3>Awareness and Education</h3>
+                        <p>We raise awareness and educate about disabilities.</p>
                        </div>
                     </div>
                      <div className='child'>
                         <p className='support_icon'><FaHandsHelping/></p>
                        <div>
-                       <h3>donate for earch</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                       <h3>Accessibility Promotion</h3>
+                        <p>We promote accessibility for everyone's benefit.</p>
                        </div>
                     </div>
                 </div>
 
             </div>
             <div className="support_right">
-                <img src="/image/about3.png" alt="" />
+                <img src="/image/support1.jpg" alt="" />
             </div>
         </div>
 

@@ -1,0 +1,28 @@
+.onGoingProjectContainer {
+    padding: 20px;
+}
+
+.projectTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.projectTable th, .projectTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.projectTable th {
+    background-color: #f2f2f2;
+}
+
+.projectTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.projectTable tr:hover {
+    background-color: #f1f1f1;
+}

@@ -28,6 +28,14 @@ const SideMenu = () => {
             <FaUserPlus />
             <span>Contact</span>
           </Link>
+          <Link to={"/dashboard/admin/gallery"} className="listItems">
+            <FaUserPlus />
+            <span>Gallery</span>
+          </Link>
+          <Link to={"/dashboard/admin/announce"} className="listItems">
+            <FaUserPlus />
+            <span>Announcement</span>
+          </Link>
           
           
          

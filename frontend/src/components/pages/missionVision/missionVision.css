@@ -14,22 +14,87 @@
     grid-column: span 2; 
 }
 
-.card {
-    /* background-color: #f0f0f0; */
+/* .card {
+
     border: 1px solid gray;
     padding: 16px;
     height: 300px;
     border-radius: 9px;
     cursor: pointer;
-    /* box-shadow: 0 6px 20px #0003; */
+
+} */
+
+.card {
+    position: relative; /* Positioning context for the overlay */
+    border: 1px solid gray;
+    padding: 16px;
+    height: 300px;
+    border-radius: 9px;
+    cursor: pointer;
+    overflow: hidden; /* Hide anything outside the card boundaries */
+    color: var(--textWhite);
 }
-.card:hover{
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1; /* Ensure the background is behind content */
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 2; /* Ensure the overlay is above the background */
+}
+
+.card > .serviceContent, .card > h3, .card > .contactBtn {
+    position: relative;
+    z-index: 3; /* Ensure the content is above both the background and overlay */
+}
+
+
+
+/* .card:hover{
     background-color: var(--primaryColor);
     color: var(--textWhite);
     transition: all .5s ease-in-out;
     border: 9px solid var(--primaryColor);
     box-shadow: 0 6px 20px #0003;
 
+} */
+
+
+
+/* Different background images for each card */
+.card.card1::before {
+    background-image: url('/image/child.jpg'); 
+}
+
+.card.card2::before {
+    background-image: url('/image/child2.jpg'); 
+}
+
+.card.card3::before {
+    background-image: url('/image/child3.jpg'); 
+}
+
+.card.card4::before {
+    background-image: url('/image/about.png'); 
+}
+
+.card.card5::before {
+    background-image: url('/image/about2.png'); 
 }
 
 
